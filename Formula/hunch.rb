@@ -1,26 +1,26 @@
 class Hunch < Formula
   desc "Fast, offline media filename parser — extract metadata from messy filenames"
   homepage "https://github.com/lijunzh/hunch"
-  version "1.1.6"
+  version "1.1.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lijunzh/hunch/releases/download/v1.1.6/hunch-aarch64-apple-darwin.tar.gz"
-      sha256 "95d3e0d43e4447e4208aaca9b8214a347eaf6874755d28a9ea795b037eb35a4d"
+      url "https://github.com/lijunzh/hunch/releases/download/v1.1.7/hunch-aarch64-apple-darwin.tar.gz"
+      sha256 "07d1761d9b951682f85a463001a332c4f3d87e8e506150ffdf94cb3632787219"
     else
-      url "https://github.com/lijunzh/hunch/releases/download/v1.1.6/hunch-x86_64-apple-darwin.tar.gz"
-      sha256 "d52923e0f04a1c9dc785565f81c1107b0cb557f1283a15a08fd139159e717660"
+      url "https://github.com/lijunzh/hunch/releases/download/v1.1.7/hunch-x86_64-apple-darwin.tar.gz"
+      sha256 "b529ec8773cfd7446d11c43e57dfe5bc2daf2b9ec5160ff7f574bddd5b30690a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lijunzh/hunch/releases/download/v1.1.6/hunch-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b1299a26a6d3bbc734a7a4a94118046b2483b9986d2734179a0a5bf6bf77ed4c"
+      url "https://github.com/lijunzh/hunch/releases/download/v1.1.7/hunch-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "356b16277e35ea4cf377ad5a67188dca5f635c87c7bfdfdbedc2f8655998590a"
     else
-      url "https://github.com/lijunzh/hunch/releases/download/v1.1.6/hunch-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9c420d2c41380e29f7bd9afe82f4908a239c9d53b05d91e98ce7160dfef99edc"
+      url "https://github.com/lijunzh/hunch/releases/download/v1.1.7/hunch-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c023b23a9f5b60a7eb49436835b2f3417c0e7a1012bf1ae7eeb2b250c1915353"
     end
   end
 
